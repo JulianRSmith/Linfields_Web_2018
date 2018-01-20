@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Linfields</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#004e92">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="theme-color" content="#004e92">
+
+    <!-- Load Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="scripts/jquery_1_11_1.js"></script>
+    <!-- Load JavaScript -->
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,600" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Main Landing Page Content -->
+    <div id="landingDiv" class="div_full_height">
+        <div id="landingGradientBg">
+            <div class="nav">
+                <div class="navWrapper">
+                    <div id="logoSpot"><a href="#landingDiv"><img src="images/logos/linfields_white.svg"></a></div>
+                    <a href="http://www.google.co.uk">
+                        <div id="quoteBtn" class="quoteBtn" onmouseover="quoteBtnHover()" onmouseout="quoteBtnOut()"
+                             onclick="quoteBtnOut()">
+                            <h3 id="quoteBtnH3">Get A Quote</h3>
+                        </div>
+                    </a>
+                    <div class="navLinksWrapper">
+                        <div class="navLinks">
+                            <ul class="navLinksList">
+                                <li id="navServices"><a href="#services">Services</a></li>
+                                <li id="navFleet"><a href="">Our Fleet</a></li>
+                                <li id="navAbout"><a href="">About Us</a></li>
+                                <li id="navTestimonials"><a href="">Testimonials</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="feature_content">
+                <div class="titleSlogan">
+                    <h1>Here For Everyone.</h1>
+                    <br>
+                    <h2>We provide wheelchair accessible vehicles, so that no one is left behind.</h2>
+                </div>
+            </div>
+            <div class="whiteCurve"></div>
+        </div>
+        <div id="landingGap"></div>
+    </div>
+
+    <div id="services" class="div_full_height">
+        <div class="center_content">
+            <div class="contentLeft">
+                <img src="images/icons/wheelchair.png">
+                <h1>Everyone travels with us.</h1>
+                <br>
+                <h2>We provide wheelchair accessible vehicles and drivers with years of experience transporting
+                    passengers with disabilities. We’ll get everyone wherever they need to go.</h2>
+            </div>
+            <br><br>
+            <div id="contentMiddle" class="contentMiddle">
+                <img src="images/icons/plane.png">
+                <h1>Never wait again.</h1>
+                <br>
+                <h2>We’ll  track your flight from the moment it takes off so that you can have a stress-free journey.
+                    When you arrive, we will too.</h2>
+            </div>
+            <br><br>
+            <div id="contentRight" class="contentRight">
+                <img src="images/icons/group.png">
+                <h1>Space for everyone.</h1>
+                <br>
+                <h2>With up to 16 seater vehicles available, we can accomodate the smallest to the largest of
+                    groups.  </h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="three" class="div_full_height">
+        <p>Item 3</p>
+    </div>
+
+    <footer>
+        <div id="footerLineBrake"></div>
+        <div class="center_content">
+            <div id="footerItemLeft">
+                <p class="logoSpotFooter"><img src="images/logos/linfields_grey.svg"></p>
+                <br>
+                <p class="footerBrandSummary">Here at Linfields, we believe that everyone deserves to travel. We only
+                    accept direct bookings, and are not represented on third-party websites.</p>
+                <br>
+                <p class="footerCopyright">Copyright <span id="currentYear"></span> Linfields Ltd &middot; All Rights Reserved</p>
+            </div>
+            <div id="footerItemRight">
+                <p class="footerContactTitle">Contact Us</p>
+                <p class="footerContactInfo"><img src="images/icons/phone.png"><span><a href="tel:01494766228">01494 766228</a></span></p>
+                <br>
+                <p class="footerContactInfo"><img src="images/icons/email.png"><span><a href="mailto:info@linfields.co.uk" target="_top">info@linfields.co.uk</a></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
